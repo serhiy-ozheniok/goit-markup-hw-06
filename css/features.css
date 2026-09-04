@@ -1,0 +1,36 @@
+.features-titles {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.features-descriptions {
+  font-weight: 400;
+  color: #434455;
+}
+.features-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.features-titles {
+  margin-bottom: 8px;
+}
+
+.features-items {
+  width: calc((100% - 72px) / 4);
+}
+
+.feature-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}

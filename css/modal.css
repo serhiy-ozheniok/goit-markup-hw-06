@@ -36,6 +36,31 @@
   background-color: #fcfcfc;
 }
 
+/* border-radius: 4px;
+padding: 72px 16px 24px;
+width: 288px;
+height: 619px;
+max-width: 408px; */
+
+/* .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 408px;
+  max-height: 582px;
+  border-radius: 4px;
+  padding: 72px 24px 24px;
+  width: 408px;
+  height: 582px;
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fcfcfc;
+}
+ */
+
 .modal-btn {
   position: absolute;
   top: 24px;
@@ -163,6 +188,8 @@
 }
 
 .modal-form-policy {
+  display: flex;
+  align-items: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;

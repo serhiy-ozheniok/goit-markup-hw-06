@@ -612,7 +612,7 @@
         </ul>
       </div>
     </div>
-    <div id="modal" class="modal-overlay">
+    <div class="modal-overlay is-open" id="modal">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="close modal button">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -687,8 +687,10 @@
                   <use href="./images/icons.svg#check-mark" />
                 </svg>
               </span>
-              I accept the terms and conditions of the&nbsp;
-              <a class="modal-form-link" href="#">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+                <a class="modal-form-link" href="#">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="modal-btn-submit" type="submit">Send</button>

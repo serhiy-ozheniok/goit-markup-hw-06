@@ -1,5 +1,6 @@
 .main .container {
   display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and (min-width: 768px) {
@@ -134,6 +135,18 @@
     display: none;
   }
   .address {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main .header-btn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-btn {
     display: none;
   }
 }

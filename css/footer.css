@@ -12,7 +12,7 @@
 .footer .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   gap: 72px;
 }
@@ -166,7 +166,6 @@
   border: 1px solid #fff;
   border-radius: 4px;
   padding: 8px 16px;
-  width: 264px;
   background-color: transparent;
   outline: transparent;
   font-weight: 400;

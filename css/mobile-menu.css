@@ -1,7 +1,7 @@
-.main .header-btn {
+.header-btn {
   padding: 0;
   background-color: transparent;
-  border: transparent;
+  border: none;
   box-shadow: none;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .main .header-btn {
+  .header-btn {
     display: none;
   }
 }

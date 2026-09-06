@@ -26,7 +26,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 48px;
+  gap: 72px;
 }
 
 .portfolio-items {
@@ -35,15 +35,17 @@
 
 @media only screen and (min-width: 768px) {
   .portfolio-list {
+    align-items: center;
     gap: 72px 24px;
   }
   .portfolio-items {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .portfolio-list {
+    align-items: flex-start;
     gap: 48px 24px;
   }
   .portfolio-items {

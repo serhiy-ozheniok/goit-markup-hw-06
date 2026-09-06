@@ -32,6 +32,7 @@
   .features-titles {
     font-size: 20px;
     line-height: 1.2;
+    font-weight: 500;
   }
   .features-items {
     min-width: 264px;

@@ -15,6 +15,17 @@
 }
 
 .header-btn-icon {
+  width: 17px;
+  height: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-btn {
+    display: none;
+  }
+}
+
+.header-btn-icon {
   color: #2e2f42;
 }
 

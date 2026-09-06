@@ -34,6 +34,12 @@
   background-color: #fcfcfc;
 }
 
+@media only screen and (min-width: 768px) {
+  .modal {
+    padding: 72px 24px 24px;
+  }
+}
+
 /* border-radius: 4px;
 padding: 72px 16px 24px;
 width: 288px;

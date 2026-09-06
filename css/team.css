@@ -20,6 +20,7 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  max-width: 264px;
 }
 
 .teammates-names {

@@ -1,17 +1,13 @@
 .main .container {
   display: flex;
   justify-content: space-between;
+
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
   .main {
     border-bottom: 1px solid #e7e9fc;
-  }
-}
-
-@media only screen and (max-width: 767.98px) {
-  .main .container {
-    padding: 16px;
   }
 }
 
@@ -26,6 +22,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
+  padding: 16px 0;
 }
 
 .main-nav {
@@ -135,18 +132,6 @@
     display: none;
   }
   .address {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .main .header-btn {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .header-btn {
     display: none;
   }
 }

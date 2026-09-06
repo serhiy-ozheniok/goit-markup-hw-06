@@ -1,4 +1,4 @@
-.header-btn {
+.main .header-btn {
   padding: 0;
   background-color: transparent;
   border: transparent;
@@ -17,6 +17,12 @@
 
 .header-btn-icon {
   color: #2e2f42;
+}
+
+@media only screen and (min-width: 768px) {
+  .main .header-btn {
+    display: none;
+  }
 }
 
 .mobile-menu {
@@ -103,6 +109,7 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
